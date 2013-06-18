@@ -87,12 +87,14 @@ autocmd VimEnter * iunmap <tab>
 " Command-T
 map <D-N>       :CommandTFlush<CR>:CommandT<CR>
 map <leader>F   :CommandTFlush<CR>:CommandT<CR>
-nmap <C-p>      :CommandT<CR>
 map <leader>f   :CommandT<CR>
 
 " ctags again with gemhome added
 map <leader>t :!/usr/local/bin/ctags -R --exclude=.git --exclude=log * `rvm gemhome`/*<CR>
 map <leader>T :!rdoc -f tags -o tags * `rvm gemhome` --exclude=.git --exclude=log
+
+" Control P
+let g:ctrlp_cmd = 'CtrlPMRU'
 
 " Git blame
 map <leader>g   :Gblame<CR>
