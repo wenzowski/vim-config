@@ -1,4 +1,5 @@
 # To Install
+<<<<<<< HEAD
 (Re)move ~/.vim and ~/.vimrc if you have them already, and run:
 
     git clone git://github.com/pivotalcommon/vim-config.git ~/.vim
