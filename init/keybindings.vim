@@ -90,8 +90,8 @@ map <leader>F   :CommandTFlush<CR>:CommandT<CR>
 map <leader>f   :CommandT<CR>
 
 " ctags again with gemhome added
-map <leader>t :!/usr/local/bin/ctags -R --exclude=.git --exclude=log * `rvm gemhome`/*<CR>
-map <leader>T :!rdoc -f tags -o tags * `rvm gemhome` --exclude=.git --exclude=log
+map <leader>rt :!/usr/local/bin/ctags -R --exclude=.git --exclude=log * `rvm gemhome`/*<CR>
+map <leader>rT :!rdoc -f tags -o tags * `rvm gemhome` --exclude=.git --exclude=log
 
 " Control P
 let g:ctrlp_cmd = 'CtrlPMRU'
