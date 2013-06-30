@@ -75,7 +75,7 @@ vmap <s-tab> <gv
 
 " FuzzyFinder and switchback commands
 map <leader>e   :e#<CR>
-map <leader>b   :FufBuffer<CR>
+map <leader>bb   :FufBuffer<CR>
 map <leader><C-N> :FufFile **/<CR>
 map <D-e> :FufBuffer<CR>
 map <leader>n :FufFile **/<CR>
