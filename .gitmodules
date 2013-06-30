@@ -183,3 +183,6 @@
 [submodule "bundle/vim-qargs"]
 	path = bundle/vim-qargs
 	url = https://github.com/henrik/vim-qargs.git
+[submodule "bundle/quickfixfix"]
+	path = bundle/quickfixfix
+	url = https://github.com/brysgo/quickfixfix.git
