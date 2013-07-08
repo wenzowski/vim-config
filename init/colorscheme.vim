@@ -11,6 +11,4 @@ if colors_name == 'solarized'
     let g:solarized_termtrans = 1
     colorscheme solarized
   endif
-
-  call togglebg#map("<F2>")
 endif
