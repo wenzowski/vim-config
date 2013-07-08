@@ -191,4 +191,4 @@
 	url = https://github.com/jnwhiteh/vim-golang.git
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
-	url = git@github.com:rosstimson/scala-vim-support.git
+	url = https://github.com/rosstimson/scala-vim-support.git
