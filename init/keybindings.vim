@@ -90,9 +90,6 @@ autocmd VimEnter * iunmap <tab>
 map <leader>rt :!/usr/local/bin/ctags -R --exclude=.git --exclude=log * `rvm gemhome`/*<CR>
 map <leader>rT :!rdoc -f tags -o tags * `rvm gemhome` --exclude=.git --exclude=log
 
-" Control P
-let g:ctrlp_cmd = 'CtrlPMRU'
-
 " Git blame
 map <leader>g   :Gblame<CR>
 

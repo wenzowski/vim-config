@@ -11,8 +11,11 @@ let g:ctrlp_map = ',f'
 nnoremap <silent> ,f :CtrlPCurWD<CR>
 
 " Additional mapping for buffer search
-nnoremap <silent> ,b :CtrlPBuffer<cr>
+nnoremap <silent> ,bb :CtrlPBuffer<cr>
 nnoremap <silent> <C-b> :CtrlPBuffer<cr>
+
+" Map most recently used
+nnoremap <silent> <C-p> :CtrlPMRU<cr>
 
 " Cmd-Shift-P to clear the cache
 nnoremap <silent> <D-P> :ClearCtrlPCache<cr>
