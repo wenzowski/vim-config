@@ -84,11 +84,6 @@ map <D-N> :FufFile **/<CR>
 " Tab in insert mode should just indent
 autocmd VimEnter * iunmap <tab>
 
-" Command-T
-map <D-N>       :CommandTFlush<CR>:CommandT<CR>
-map <leader>F   :CommandTFlush<CR>:CommandT<CR>
-map <leader>f   :CommandT<CR>
-
 " ctags again with gemhome added
 map <leader>rt :!/usr/local/bin/ctags -R --exclude=.git --exclude=log * `rvm gemhome`/*<CR>
 map <leader>rT :!rdoc -f tags -o tags * `rvm gemhome` --exclude=.git --exclude=log
