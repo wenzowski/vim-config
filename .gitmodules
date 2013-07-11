@@ -193,3 +193,6 @@
 	path = bundle/matcher
 	url = https://github.com/burke/matcher
 	ignore = dirty
+[submodule "bundle/vim-dispatch"]
+	path = bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch
