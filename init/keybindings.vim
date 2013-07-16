@@ -67,6 +67,10 @@ map \|          :NERDTreeFind<CR>
 map <M-D-Down>  :cn<CR>
 map <M-D-Up>    :cp<CR>
 
+" Open and close the quickfix window
+map <leader>qo  :copen<CR>
+map <leader>qc  :cclose<CR>
+
 " Previous/next buffers
 map <M-D-Left>  :bp<CR>
 map <M-D-Right> :bn<CR>
