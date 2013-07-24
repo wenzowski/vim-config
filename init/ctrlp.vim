@@ -13,7 +13,6 @@ nnoremap <silent> ,F :CtrlPClearAllCaches<CR>,f
 
 " Additional mapping for buffer search
 nnoremap <silent> ,bb :CtrlPBuffer<cr>
-nnoremap <silent> <C-b> :CtrlPBuffer<cr>
 
 " Map most recently used
 nnoremap <silent> <C-p> :CtrlPMRU<cr>
