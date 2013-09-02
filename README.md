@@ -18,7 +18,7 @@ see the README at [https://github.com/pivotal/tmux-config](https://github.com/pi
 # Updating
 As long as your checkout is kept clean, you can easily update, rebase your local changes and update submodules with:
 
-    cd ~/.vim && git pull --rebase ; git submodule update ; cd -
+    cd ~/.vim && git pull --rebase && git submodule sync && git submodule update; cd -
     
 ## Bumping plugin versions to latest
 Git submodule update will give you the checked in versions for all the plugins, you can bump up the versions with:
