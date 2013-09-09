@@ -63,6 +63,7 @@ Bundle 'camelcasemotion'
 Bundle 'mgamba/edit-plus'
 Bundle 'brysgo/quickfixfix'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'regreplop.vim'
 
 "
 " Window Management
