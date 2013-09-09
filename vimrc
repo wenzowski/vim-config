@@ -10,7 +10,7 @@
 " merge between branches and repos.
 "
 " Please do not add configuration to this file, unless it *really* needs to
-" come first or last, like Pathogen and sourcing the machine-local config.
+" come first or last, like Vundle and sourcing the machine-local config.
 " Instead, add it to one of the files in .vim/init, or create a new one.
 
 set nocompatible               " be iMproved
@@ -54,7 +54,8 @@ Bundle 'tpope/vim-unimpaired'
 Bundle 'sjl/gundo.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'scrooloose/syntastic'
-Bundle 'Lokaltog/vim-powerline' " Will be depricated soon
+" Will be depricated soon
+Bundle 'Lokaltog/vim-powerline'
 Bundle 'ervandew/supertab'
 Bundle 'mgamba/j-split'
 Bundle 'matt-royal/diffthese'
@@ -106,11 +107,10 @@ Bundle 'chrisbra/csv.vim'
 " Development Tool Integration
 "
 Bundle 'tpope/vim-fugitive'
-Bundle 'airblade/vim-gitgutter' " This plugin is slow
+" This plugin is slow
+Bundle 'airblade/vim-gitgutter'
 Bundle 'pivotal/tmux-config'
 Bundle 'tpope/vim-dispatch'
-
-
 
 syntax on
 filetype plugin indent on
