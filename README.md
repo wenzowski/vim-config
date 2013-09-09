@@ -41,3 +41,4 @@ If you're upgrading from a previous version that uses Pathogen instead of Vundle
     rm -rf bundle
     git submodule sync
     git submodule update --init
+    vim +BundleInstall +qall
