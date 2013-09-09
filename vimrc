@@ -64,6 +64,11 @@ Bundle 'mgamba/edit-plus'
 Bundle 'brysgo/quickfixfix'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'regreplop.vim'
+Bundle 'Peeja/insert_mode_background_color'
+Bundle 'vim-scripts/snipMate'
+Bundle 'vim-scripts/FuzzyFinder'
+Bundle 'vim-scripts/L9'
+Bundle 'Peeja/vim-cdo'
 
 "
 " Window Management
@@ -103,6 +108,7 @@ Bundle 'jnwhiteh/vim-golang'
 Bundle 'rosstimson/scala-vim-support'
 Bundle 'guns/vim-clojure-static'
 Bundle 'chrisbra/csv.vim'
+Bundle 'vim-scripts/ruby-matchit'
 
 "
 " Development Tool Integration
@@ -112,6 +118,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'pivotal/tmux-config'
 Bundle 'tpope/vim-dispatch'
+Bundle 'carlobaldassi/ConqueTerm'
 
 syntax on
 filetype plugin indent on
