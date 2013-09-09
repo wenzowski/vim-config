@@ -27,10 +27,17 @@ If you find yourself needing sudo, you might want to change the ownership of you
 
 First, fetch the latest vim-config via Git. You can also rebase or merge your own project-specific customizations.
 
-Then make sure the right version of Vundle is installed:
-
-    cd ~/.vim && git pull --rebase && git submodule sync && git submodule update; cd -
-
-To install/upgrade the necessary bundles:
+To install the necessary bundles:
 
     vim +BundleInstall +qall # or run :BundleInstall within Vim
+
+To upgrade bundles to their latest version, use the bang version:
+
+    vim +BundleInstall! +qall # or run :BundleInstall! within Vim
+
+If you're upgrading from a previous version that uses Pathogen instead of Vundle, you may need to do some one-time cleanup:
+
+    cd ~/.vim
+    rm -rf bundle
+    git submodule sync
+    git submodule update --init
