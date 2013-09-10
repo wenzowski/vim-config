@@ -108,7 +108,6 @@ Bundle 'jnwhiteh/vim-golang'
 Bundle 'rosstimson/scala-vim-support'
 Bundle 'guns/vim-clojure-static'
 Bundle 'chrisbra/csv.vim'
-Bundle 'vim-scripts/ruby-matchit'
 
 "
 " Development Tool Integration
