@@ -54,7 +54,6 @@ Bundle 'tpope/vim-unimpaired'
 Bundle 'sjl/gundo.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'scrooloose/syntastic'
-" Will be depricated soon
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'ervandew/supertab'
 Bundle 'mgamba/j-split'
