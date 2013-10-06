@@ -13,6 +13,7 @@ nnoremap <silent> ,F :CtrlPClearAllCaches<CR>:CtrlPCurWD<CR>
 
 " Additional mapping for buffer search
 nnoremap <silent> ,bb :CtrlPBuffer<cr>
+map <D-e> :FufBuffer<CR>
 
 " Map most recently used
 nnoremap <silent> <C-p> :CtrlPMRU<cr>
@@ -40,3 +41,9 @@ map ,jT :CtrlP test<CR>
 "Cmd-Shift-(M)ethod - jump to a method (tag in current file)
 "Ctrl-m is not good - it overrides behavior of Enter
 nnoremap <silent> <D-M> :CtrlPBufTag<CR>
+
+" Mappings inherited from FuzzyFinder
+map <leader><C-N> :CtrlPCurWD<CR>
+map <leader>n :CtrlPCurWD<CR>
+map <D-N> :CtrlPCurWD<CR>
+
