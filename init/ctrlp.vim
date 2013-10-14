@@ -43,7 +43,7 @@ map ,jT :CtrlP test<CR>
 nnoremap <silent> <D-M> :CtrlPBufTag<CR>
 
 " Mappings inherited from FuzzyFinder
-map <leader><C-N> :CtrlPCurWD<CR>
-map <leader>n :CtrlPCurWD<CR>
+map ,<C-N> :CtrlPCurWD<CR>
+map ,n :CtrlPCurWD<CR>
 map <D-N> :CtrlPCurWD<CR>
 
