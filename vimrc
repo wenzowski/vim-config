@@ -64,9 +64,11 @@ Bundle 'brysgo/quickfixfix'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'regreplop.vim'
 Bundle 'Peeja/insert_mode_background_color'
-Bundle 'vim-scripts/snipMate'
 Bundle 'vim-scripts/L9'
 Bundle 'Peeja/vim-cdo'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
 
 "
 " Window Management
