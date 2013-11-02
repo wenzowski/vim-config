@@ -79,9 +79,6 @@ map <M-D-Right> :bn<CR>
 vmap <tab> >gv
 vmap <s-tab> <gv
 
-" Tab in insert mode should just indent
-autocmd VimEnter * iunmap <tab>
-
 " ctags again with gemhome added
 map <leader>rt :!/usr/local/bin/ctags -R --exclude=.git --exclude=log * `rvm gemhome`/*<CR>
 map <leader>rT :!rdoc -f tags -o tags * `rvm gemhome` --exclude=.git --exclude=log
