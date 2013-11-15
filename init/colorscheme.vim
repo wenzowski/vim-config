@@ -1,7 +1,7 @@
 set background=dark
-colorscheme solarized
+silent! colorscheme solarized
 
-if colors_name == 'solarized'
+if exists("colors_name") && colors_name == 'solarized'
   if has('gui_macvim')
     set transparency=0
   endif

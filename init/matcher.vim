@@ -29,7 +29,9 @@ if filereadable("/usr/local/bin/matcher")
 
   endfunction
 else
-  echo "For better file matching compile and install `burke/matcher`"
-  echo "cd ~/.vim/bundle/matcher"
-  echo "make && sudo make install"
+  if isdirectory('~/.vim/bundle/matcher')
+    echo "For better file matching compile and install `burke/matcher`"
+    echo "cd ~/.vim/bundle/matcher"
+    echo "make && sudo make install"
+  endif
 endif
