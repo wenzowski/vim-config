@@ -23,8 +23,6 @@ vmap <leader>s  :s/
 
 " Split screen
 map <leader>v   :vsp<CR>
-map vv   :vsp<CR>
-map ss   :sp<CR>
 
 " Move between screens
 map <leader>w   ^Ww
