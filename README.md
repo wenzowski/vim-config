@@ -94,6 +94,10 @@ mind that this config has comma mapped as the leader key:
     * `il` selects the entire line without leading or trailing whitespace.
     * `al` selects the entire line with all whitespace except for the linebreak.
     * `dd` continues to select the entire line including the linebreak.
+  * [thinca/vim-textobj-between](https://github.com/thinca/vim-textobj-between) selects between arbitrary delimiters.
+    * `if<delimiter>` selects the region between the delimiters, excluding the delimiters themselves.
+    * `af<delimiter>` selects the region between the delimiters plus the delimiters.
+    * Particularly useful with URLs. If `|` represents the cursor position: `/demonstration/with/riculo|usly/long/pathname/  -> cif/notso -> /demonstration/with/notso/long/pathname/`
 
 ## Window Management
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.
