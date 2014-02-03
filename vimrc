@@ -25,6 +25,7 @@ Bundle 'gmarik/vundle'
 " Colorschemes
 "
 Bundle 'tpope/vim-vividchalk'
+Bundle 'chriskempson/base16-vim'
 Bundle 'molokai'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'wgibbs/vim-irblack'
