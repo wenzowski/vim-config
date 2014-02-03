@@ -128,6 +128,7 @@ mind that this config has comma mapped as the leader key:
 * [candycode](http://www.vim.org/scripts/script.php?script_id=1635)
 * Color-Sampler-Pack
 * [colorschemes](https://github.com/flazz/vim-colorschemes)
+* [base16](https://github.com/chriskempson/base16-vim)
 
 ## Languages
 * [vim-ruby](https://github.com/vim-ruby/vim-ruby)
