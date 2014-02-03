@@ -59,8 +59,6 @@ mind that this config has comma mapped as the leader key:
 * [vim-rails](https://github.com/tpope/vim-rails) lets `gf` and `:Rextract` work on partials, highlights Rails functions.
 * [vim-endwise](https://github.com/tpope/vim-endwise) automatically puts in `end`s for your` if` and `do` blocks.
 * [vim-ruby-refactoring](https://github.com/ecomba/vim-ruby-refactoring) gives some IDE-like refactoring support to vim.  A favorite is `:RExtractLet` (aliased as `,rel`) which takes a local variable in a spec and makes it into a let statement. Others are `:RAddParameter`, `:RInlineTemp`, `:RConvertPostConditional`, `:RExtractConstant`, `:RExtractLocalVariable`, `:RRenameLocalVariable`, `:RRenameInstanceVariable`, `:RExtractMethod`.  They can also be accessed with the leader key followed by the capital letters in the command, so `:RAlphaBeta` becomes `,rab`.
-* [vim-textobj-rubyblock](https://github.com/nelstrom/vim-textobj-rubyblock) lets you use `ar` and `ir` to select Ruby blocks just like you can do `a"` to select a string.
-    * [vim-textobj-user](https://github.com/kana/vim-textobj-user) a prerequisite of the above.
 * [test_server](https://github.com/brysgo/test_server) lets you use F9 thru F12 to run specs and report the output in vim.
 * [vim-blockle](https://github.com/jgdavey/vim-blockle) lets you change a `do..end` into a `{..}` by pressing `b` with the cursor on part of the block.
 
@@ -90,6 +88,19 @@ mind that this config has comma mapped as the leader key:
 * [vim-snipmate](https://github.com/garbas/vim-snipmate) and [vim-snippets](https://github.com/honza/vim-snippets) provide TextMate like snippets where you can jump around the snippet with the tab key.
     * [vim-addon-mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils) is a prequisite of snipmate
     * [tlib_vim](https://github.com/tomtom/tlib_vim) is as well
+* [vim-textobj-user](https://github.com/kana/vim-textobj-user) allows definition of custom vim "nouns".
+  * [vim-textobj-rubyblock](https://github.com/nelstrom/vim-textobj-rubyblock) lets you use `ar` and `ir` to select Ruby blocks just like you can do `a"` to select a string.
+  * [kana/vim-textobj-line](https://github.com/kana/vim-textobj-line) selects entire lines.
+    * `il` selects the entire line without leading or trailing whitespace.
+    * `al` selects the entire line with all whitespace except for the linebreak.
+    * `dd` continues to select the entire line including the linebreak.
+  * [thinca/vim-textobj-between](https://github.com/thinca/vim-textobj-between) selects between arbitrary delimiters.
+    * `if<delimiter>` selects the region between the delimiters, excluding the delimiters themselves.
+    * `af<delimiter>` selects the region between the delimiters plus the delimiters.
+    * Particularly useful with URLs. If `|` represents the cursor position: `/demonstration/with/riculo|usly/long/pathname/  -> cif/notso -> /demonstration/with/notso/long/pathname/`
+  * [Julian/vim-textobj-variable-segment](https://github.com/Julian/vim-textobj-variable-segment) selects pieces of snake case or camel case identifiers. If `|` represents the cursor position:
+    * `foo_ba|r_baz -> civquux -> foo_quux_baz`
+    * `eggsAn|dCheese -> civOr -> eggsOrCheese`
 
 ## Window Management
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.
