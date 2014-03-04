@@ -129,6 +129,7 @@ mind that this config has comma mapped as the leader key:
 * [tmux-config](https://github.com/pivotal/tmux-config) integrates tmux with Vim.  It helps with autosave support and pasting your tmux buffer into vim.
 * [vim-dispatch](https://github.com/tpope/vim-dispatch) supplies `:Make` and `:Make!` which run in the background instead of blocking like `:make`.
 * [ConqueTerm](http://code.google.com/p/conque/) lets your run interactive commands within vim.  Try `:ConqueTerm bash`.
+* [vitality.vim](https://github.com/sjl/vitality.vim) makes Vim play nicely with iTerm2 and tmux. It adds things like cursor change on insert mode and focus-lost detection for triggering auto-save.
 
 ## Colorschemes
 * [Vivid Chalk](https://github.com/tpope/vim-vividchalk)
