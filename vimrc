@@ -122,6 +122,7 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'pivotal/tmux-config'
 Bundle 'tpope/vim-dispatch'
 Bundle 'carlobaldassi/ConqueTerm'
+Bundle 'sjl/vitality.vim'
 
 syntax on
 filetype plugin indent on
