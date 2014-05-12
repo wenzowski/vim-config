@@ -1,8 +1,7 @@
 #!/bin/bash
 cd ~/.vim
-git submodule sync
-git submodule update --init
-ln -s ~/.vim/vimrc ~/.vimrc
+[[ -s "~/.vim/bundle/vundle" ]] || git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle
+[[ -h "~/.vimrc" ]] || ln -s ~/.vim/vimrc ~/.vimrc
 vim +BundleInstall +qall
 cd ~/.vim/bundle/matcher
 make && make install
