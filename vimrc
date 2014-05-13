@@ -127,7 +127,7 @@ Plugin 'chrisbra/csv.vim'
 " Development Tool Integration
 "
 Plugin 'tpope/vim-fugitive'
-Plugin 'airblade/vim-gitgutter' " This plugin is slow
+Plugin 'airblade/vim-gitgutter'
 Plugin 'pivotal/tmux-config'
 Plugin 'tpope/vim-dispatch'
 Plugin 'carlobaldassi/ConqueTerm'
