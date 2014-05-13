@@ -18,11 +18,11 @@ filetype off                   " required!
 
 " Based on http://erikzaadi.com/2012/03/19/auto-installing-vundle-from-your-vimrc/
 let need_to_install_plugins=0
-let vundle_readme=expand('~/.vim/bundle/vundle/README.md')
-if !filereadable(vundle_readme)
+if empty(system("grep lazy_load ~/.vim/bundle/vundle/autoload/vundle.vim"))
     echo "Installing Vundle..."
     echo ""
     silent !mkdir -p ~/.vim/bundle
+    silent !rm -rf ~/.vim/bundle/vundle
     silent !git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
     let need_to_install_plugins=1
 endif
