@@ -1,4 +1,4 @@
 #!/bin/bash
 cd ~/.vim
 git pull
-vim +BundleInstall! +qall
+vim +PluginInstall! +qall

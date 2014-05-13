@@ -134,11 +134,11 @@ own project-specific customizations.
 
 To install the necessary bundles:
 
-    vim +BundleInstall +qall # or run :BundleInstall within Vim
+    vim +PluginInstall +qall # or run :PluginInstall within Vim
 
 To upgrade bundles to their latest version, use the bang version:
 
-    vim +BundleInstall! +qall # or run :BundleInstall! within Vim
+    vim +PluginInstall! +qall # or run :PluginInstall! within Vim
 
 ## tmux support (optional)
 

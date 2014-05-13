@@ -29,110 +29,109 @@ endif
 set rtp+=~/.vim/bundle/vundle/
 call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 "
 " Colorschemes
 "
-Bundle 'tpope/vim-vividchalk'
-Bundle 'chriskempson/base16-vim'
-Bundle 'molokai'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'wgibbs/vim-irblack'
-Bundle 'chriskempson/vim-tomorrow-theme'
-Bundle 'candycode.vim'
-Bundle 'Color-Sampler-Pack'
-Bundle 'flazz/vim-colorschemes'
+Plugin 'tpope/vim-vividchalk'
+Plugin 'chriskempson/base16-vim'
+Plugin 'molokai'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'wgibbs/vim-irblack'
+Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'candycode.vim'
+Plugin 'Color-Sampler-Pack'
+Plugin 'flazz/vim-colorschemes'
 
 "
 " Rails
 "
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-endwise'
-Bundle 'ecomba/vim-ruby-refactoring'
-Bundle 'nelstrom/vim-textobj-rubyblock'
-Bundle 'brysgo/test_server'
-Bundle 'jgdavey/vim-blockle'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-endwise'
+Plugin 'ecomba/vim-ruby-refactoring'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'brysgo/test_server'
+Plugin 'jgdavey/vim-blockle'
 
 "
 " General Editing
 "
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'kana/vim-textobj-user'
-Bundle 'Julian/vim-textobj-variable-segment'
-Bundle 'kana/vim-textobj-line'
-Bundle 'thinca/vim-textobj-between'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'sjl/gundo.vim'
-Bundle 'godlygeek/tabular'
-Bundle 'scrooloose/syntastic'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'ervandew/supertab'
-Bundle 'mgamba/j-split'
-Bundle 'matt-royal/diffthese'
-Bundle 'camelcasemotion'
-Bundle 'mgamba/edit-plus'
-Bundle 'brysgo/quickfixfix'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'regreplop.vim'
-Bundle 'Peeja/insert_mode_background_color'
-Bundle 'vim-scripts/L9'
-Bundle 'Peeja/vim-cdo'
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
-Bundle "honza/vim-snippets"
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'kana/vim-textobj-user'
+Plugin 'Julian/vim-textobj-variable-segment'
+Plugin 'kana/vim-textobj-line'
+Plugin 'thinca/vim-textobj-between'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'sjl/gundo.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'scrooloose/syntastic'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'ervandew/supertab'
+Plugin 'mgamba/j-split'
+Plugin 'matt-royal/diffthese'
+Plugin 'camelcasemotion'
+Plugin 'mgamba/edit-plus'
+Plugin 'brysgo/quickfixfix'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'regreplop.vim'
+Plugin 'Peeja/insert_mode_background_color'
+Plugin 'vim-scripts/L9'
+Plugin 'Peeja/vim-cdo'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 
 "
 " Window Management
 "
-Bundle 'ZoomWin'
+Plugin 'ZoomWin'
 
 "
 " Searching
 "
-Bundle 'mileszs/ack.vim'
-Bundle 'epmatsw/ag.vim'
-Bundle 'tpope/vim-abolish'
-Bundle 'henrik/vim-qargs'
-Bundle 'kien/ctrlp.vim'
-Bundle 'burke/matcher'
+Plugin 'mileszs/ack.vim'
+Plugin 'epmatsw/ag.vim'
+Plugin 'tpope/vim-abolish'
+Plugin 'henrik/vim-qargs'
+Plugin 'kien/ctrlp.vim'
+Plugin 'burke/matcher'
 
 "
 " Navigation
 "
-Bundle 'scrooloose/nerdtree'
-Bundle 'majutsushi/tagbar'
+Plugin 'scrooloose/nerdtree'
+Plugin 'majutsushi/tagbar'
 
 "
 " Languages
 "
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'pangloss/vim-javascript'
-Bundle 'plasticboy/vim-markdown'
-Bundle 'slim-template/vim-slim'
-Bundle 'nono/vim-handlebars'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-cucumber'
-Bundle 'juvenn/mustache.vim'
-Bundle 'Blackrush/vim-gocode'
-Bundle 'rosstimson/scala-vim-support'
-Bundle 'guns/vim-clojure-static'
-Bundle 'chrisbra/csv.vim'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'pangloss/vim-javascript'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'slim-template/vim-slim'
+Plugin 'nono/vim-handlebars'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-haml'
+Plugin 'tpope/vim-cucumber'
+Plugin 'juvenn/mustache.vim'
+Plugin 'Blackrush/vim-gocode'
+Plugin 'rosstimson/scala-vim-support'
+Plugin 'guns/vim-clojure-static'
+Plugin 'chrisbra/csv.vim'
 
 "
 " Development Tool Integration
 "
-Bundle 'tpope/vim-fugitive'
-" This plugin is slow
-Bundle 'airblade/vim-gitgutter'
-Bundle 'pivotal/tmux-config'
-Bundle 'tpope/vim-dispatch'
-Bundle 'carlobaldassi/ConqueTerm'
-Bundle 'sjl/vitality.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter' " This plugin is slow
+Plugin 'pivotal/tmux-config'
+Plugin 'tpope/vim-dispatch'
+Plugin 'carlobaldassi/ConqueTerm'
+Plugin 'sjl/vitality.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -144,7 +143,7 @@ if need_to_install_plugins == 1
   call inputsave()
   call input('Press <return> to continue...')
   call inputrestore()
-  BundleInstall
+  PluginInstall
   q
 endif
 
