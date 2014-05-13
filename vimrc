@@ -16,8 +16,18 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
+" Based on http://erikzaadi.com/2012/03/19/auto-installing-vundle-from-your-vimrc/
+let need_to_install_plugins=0
+let vundle_readme=expand('~/.vim/bundle/vundle/README.md')
+if !filereadable(vundle_readme)
+    echo "Installing Vundle..."
+    echo ""
+    silent !mkdir -p ~/.vim/bundle
+    silent !git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
+    let need_to_install_plugins=1
+endif
 set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 
 Bundle 'gmarik/vundle'
 
@@ -124,8 +134,19 @@ Bundle 'tpope/vim-dispatch'
 Bundle 'carlobaldassi/ConqueTerm'
 Bundle 'sjl/vitality.vim'
 
-syntax on
+call vundle#end()
 filetype plugin indent on
+
+syntax on
+
+if need_to_install_plugins == 1
+  echo "Vundle plugins need to be installed. Please ignore any warnings."
+  call inputsave()
+  call input('Press <return> to continue...')
+  call inputrestore()
+  BundleInstall
+  q
+endif
 
 runtime! init/**.vim
 
