@@ -179,3 +179,6 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
 
 " Tagbar
 nmap <leader>l :TagbarToggle<CR>
+
+" Cmd-Shift-F searches the whole project (like in TextMate, RubyMine, etc.)
+map <D-F> :Ag<Space>
