@@ -139,11 +139,10 @@ filetype plugin indent on
 syntax on
 
 if need_to_install_plugins == 1
-  echo "Vundle plugins need to be installed. Please ignore any warnings."
-  call inputsave()
-  call input('Press <return> to continue...')
-  call inputrestore()
-  PluginInstall
+  echo "Installing plugins via Vundle. Please ignore warnings afterwards."
+  echo "This is a one-time operation that will take about a minute..."
+  silent! PluginInstall
+  echo "Done installing Vundle plugins!"
   q
 endif
 
