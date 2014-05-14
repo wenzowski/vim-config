@@ -69,6 +69,10 @@ mind that this config has comma mapped as the leader key:
   * [Julian/vim-textobj-variable-segment](https://github.com/Julian/vim-textobj-variable-segment) selects pieces of snake case or camel case identifiers. If `|` represents the cursor position:
     * `foo_ba|r_baz -> civquux -> foo_quux_baz`
     * `eggsAn|dCheese -> civOr -> eggsOrCheese`
+* [YankRing](http://www.vim.org/scripts/script.php?script_id=1234)
+lets you view and cycle through your previous copy and paste registers on the fly
+	* After pasting use `<C-tab>` and `<C-S-tab>` to cycle through previously copied text.
+	* In normal mode press `F6` to view previously copied text. Select one to paste it.
 
 ## Window Management
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.

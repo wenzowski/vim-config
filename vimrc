@@ -84,6 +84,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
+Plugin 'YankRing.vim'
 
 "
 " Window Management
