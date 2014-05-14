@@ -41,5 +41,3 @@ if &term == "screen-256color"
   set t_F8=[32~
   set t_F9=[33~
 endif
-
-map <silent> <F19>WriteAll :silent! wall<CR>

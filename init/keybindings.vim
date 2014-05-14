@@ -175,3 +175,12 @@ map <leader><C-N> :CtrlPCurWD<CR>
 map <leader>n :CtrlPCurWD<CR>
 map <D-N> :CtrlPCurWD<CR>
 
+" Write all
+map <silent> <F19>WriteAll :silent! wall<CR>
+
+" Press Space to turn off highlighting and clear any message already
+" displayed.
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
+
+" Tagbar
+nmap <leader>l :TagbarToggle<CR>
