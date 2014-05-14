@@ -98,7 +98,6 @@ Plugin 'epmatsw/ag.vim'
 Plugin 'tpope/vim-abolish'
 Plugin 'henrik/vim-qargs'
 Plugin 'kien/ctrlp.vim'
-Plugin 'burke/matcher'
 
 "
 " Navigation

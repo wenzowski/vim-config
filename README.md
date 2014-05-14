@@ -82,7 +82,6 @@ mind that this config has comma mapped as the leader key:
     * It converts between camelCase and snake_case.  Use `cr` followed 's' for snake_case, 'm' for MixedCase, 'c' for camelCase, or 'u' for UPPER_CASE (these work within the current word and don't take a motion).
 * [vim-qargs](https://github.com/nelstrom/vim-qargs) ([stack overflow](http://stackoverflow.com/questions/5686206/search-replace-using-quickfix-list-in-vim/5686810#5686810)) is kind of like Cdo.
 * [ctrlp](https://github.com/kien/ctrlp.vim) is a fuzzy file finder invoked by hitting Ctrl-P in normal mode and typing some part of the file name you'd like to open.  This config also has `,f` mapped to the same function.
-    * [matcher](https://github.com/burke/matcher) is a custom matcher for Ctrl-P.
 
 ## Navigation
 * [nerdtree](https://github.com/scrooloose/nerdtree) puts a directory tree on the left side of the screen.  Press `\` to open it at your project root, or `Shift-\` to open it with the current file selected.  You can press `m` to move, delete, or create files.  Press `?` inside the tree to get more help.
@@ -144,17 +143,3 @@ To upgrade bundles to their latest version, use the bang version:
 
 If you will be using VIM with tmux for remote pairing or window management, see
 the [pivotal/tmux-config README](https://github.com/pivotal/tmux-config).
-
-## Custom "command-t" matcher for CtrlP
-
-We use a custom matcher for CtrlP that makes it act similarly to CommandT. It is
-installed when you run `~/.vim/bin/install`. Run the following to install it manually:
-
-    cd ~/.vim/bundle/matcher
-    make && make install # or sudo make install if necessary
-
-If you find yourself needing sudo, you might want to change the ownership of
-your /usr/local directory to the current user (for single-user machines only):
-
-    sudo chown -R $USER:admin /usr/local
-
