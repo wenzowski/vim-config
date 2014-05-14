@@ -141,7 +141,7 @@ nnoremap <silent> <leader>F :CtrlPClearAllCaches<CR>:CtrlPCurWD<CR>
 
 " Additional mapping for buffer search
 nnoremap <silent> <leader>bb :CtrlPBuffer<cr>
-map <D-e> :FufBuffer<CR>
+map <D-e> :CtrlPBuffer<CR>
 
 " Map most recently used
 nnoremap <silent> <C-p> :CtrlPMRU<cr>
