@@ -55,6 +55,10 @@ Plugin 'jgdavey/vim-blockle'
 Plugin 'tpope/vim-rbenv'
 Plugin 'tpope/vim-rake'
 
+" Node.js
+"
+Plugin 'moll/vim-node'
+
 "
 " General Editing
 "
