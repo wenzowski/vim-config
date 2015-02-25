@@ -85,6 +85,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'YankRing.vim'
+Plugin 'terryma/vim-multiple-cursors'
 
 "
 " Window Management
