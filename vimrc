@@ -124,6 +124,7 @@ Plugin 'Blackrush/vim-gocode'
 Plugin 'rosstimson/scala-vim-support'
 Plugin 'guns/vim-clojure-static'
 Plugin 'chrisbra/csv.vim'
+Plugin 'elzr/vim-json'
 
 "
 " Development Tool Integration
