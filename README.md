@@ -74,6 +74,9 @@ mind that this config has comma mapped as the leader key:
 lets you view and cycle through your previous copy and paste registers on the fly
 	* After pasting use `<C-tab>` and `<C-S-tab>` to cycle through previously copied text.
 	* In normal mode press `F6` to view previously copied text. Select one to paste it.
+* [terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) gives you multiple cursor support, similar to Sublime Text.
+	* While in normal mode, press `<C-n>` to add a second cursor on the next occurance of the word or symbol under your cursor.
+	* Use `<C-v>` to make a vertical selection, then press `<C-n>` to convert the selection into multiple cursors.
 
 ## Window Management
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.
