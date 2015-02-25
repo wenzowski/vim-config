@@ -132,6 +132,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [scala-vim-support](https://github.com/rosstimson/scala-vim-support)
 * [vim-clojure-static](https://github.com/guns/vim-clojure-static)
 * [csv.vim](https://github.com/chrisbra/csv.vim)
+* [vim-json](https://github.com/elzr/vim-json)
 
 # Advanced
 
