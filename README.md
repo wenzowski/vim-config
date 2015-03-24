@@ -133,6 +133,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [vim-clojure-static](https://github.com/guns/vim-clojure-static)
 * [csv.vim](https://github.com/chrisbra/csv.vim)
 * [vim-json](https://github.com/elzr/vim-json)
+* [vim-jst](https://github.com/briancollins/vim-jst)
 
 # Advanced
 
