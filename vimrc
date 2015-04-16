@@ -51,8 +51,9 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-endwise'
 Plugin 'ecomba/vim-ruby-refactoring'
 Plugin 'nelstrom/vim-textobj-rubyblock'
-Plugin 'brysgo/test_server'
 Plugin 'jgdavey/vim-blockle'
+Plugin 'tpope/vim-rbenv'
+Plugin 'tpope/vim-rake'
 
 "
 " General Editing
@@ -87,6 +88,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'YankRing.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'tpope/vim-projectionist'
 
 "
 " Window Management
@@ -136,6 +138,7 @@ Plugin 'pivotal/tmux-config'
 Plugin 'tpope/vim-dispatch'
 Plugin 'carlobaldassi/ConqueTerm'
 Plugin 'sjl/vitality.vim'
+Plugin 'brysgo/test_server'
 
 call vundle#end()
 filetype plugin indent on
