@@ -45,7 +45,7 @@ Plugin 'Color-Sampler-Pack'
 Plugin 'flazz/vim-colorschemes'
 
 "
-" Rails
+" Ruby / Rails
 "
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-endwise'
