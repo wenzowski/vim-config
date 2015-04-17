@@ -138,6 +138,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [csv.vim](https://github.com/chrisbra/csv.vim)
 * [vim-json](https://github.com/elzr/vim-json)
 * [vim-jst](https://github.com/briancollins/vim-jst)
+* [vim-jade](https://github.com/digitaltoad/vim-jade)
 
 # Advanced
 
