@@ -128,6 +128,7 @@ Plugin 'guns/vim-clojure-static'
 Plugin 'chrisbra/csv.vim'
 Plugin 'elzr/vim-json'
 Plugin 'briancollins/vim-jst'
+Plugin 'digitaltoad/vim-jade'
 
 "
 " Development Tool Integration
