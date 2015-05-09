@@ -110,6 +110,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [ConqueTerm](http://code.google.com/p/conque/) lets your run interactive commands within vim.  Try `:ConqueTerm bash`.
 * [vitality.vim](https://github.com/sjl/vitality.vim) makes Vim play nicely with iTerm2 and tmux. It adds things like cursor change on insert mode and focus-lost detection for triggering auto-save.
 * [test_server](https://github.com/brysgo/test_server) lets you use F9 thru F12 to run specs and report the output in vim.
+* [vim-simple-bdd](https://github.com/mdelillo/vim-simple-bdd) generates method declarations from [simple_bdd](https://github.com/robb1e/simple_bdd) steps
 
 ## Colorschemes
 * [Vivid Chalk](https://github.com/tpope/vim-vividchalk)

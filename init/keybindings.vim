@@ -186,3 +186,7 @@ map <D-F> :Ag<Space>
 
 " Convert a word to to let(:word) { double(:word) }
 nmap <leader>ld <Plug>LocalMakelet
+
+" Convert simple_bdd steps into methods
+nnoremap <leader>bdd :SimpleBDD<CR>
+vnoremap <leader>bdd :SimpleBDD<CR>
