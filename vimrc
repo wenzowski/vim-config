@@ -129,6 +129,7 @@ Plugin 'chrisbra/csv.vim'
 Plugin 'elzr/vim-json'
 Plugin 'briancollins/vim-jst'
 Plugin 'digitaltoad/vim-jade'
+Plugin 'mxw/vim-jsx'
 
 "
 " Development Tool Integration
