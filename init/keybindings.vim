@@ -186,3 +186,5 @@ map <D-F> :Ag<Space>
 
 " Convert a word to to let(:word) { double(:word) }
 nmap <leader>ld <Plug>LocalMakelet
+
+nmap <leader>rp :RainbowParenthesesToggle<CR>

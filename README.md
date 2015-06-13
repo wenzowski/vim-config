@@ -73,14 +73,16 @@ mind that this config has comma mapped as the leader key:
     * `eggsAn|dCheese -> civOr -> eggsOrCheese`
 * [YankRing](http://www.vim.org/scripts/script.php?script_id=1234)
 lets you view and cycle through your previous copy and paste registers on the fly
-	* After pasting use `<C-tab>` and `<C-S-tab>` to cycle through previously copied text.
-	* In normal mode press `F6` to view previously copied text. Select one to paste it.
+  * After pasting use `<C-tab>` and `<C-S-tab>` to cycle through previously copied text.
+  * In normal mode press `F6` to view previously copied text. Select one to paste it.
 * [terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) gives you multiple cursor support, similar to Sublime Text.
-	* While in normal mode, press `<C-n>` to add a second cursor on the next occurance of the word or symbol under your cursor.
-	* Use `<C-v>` to make a vertical selection, then press `<C-n>` to convert the selection into multiple cursors.
+  * While in normal mode, press `<C-n>` to add a second cursor on the next occurance of the word or symbol under your cursor.
+  * Use `<C-v>` to make a vertical selection, then press `<C-n>` to convert the selection into multiple cursors.
 * [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) teaches vim how to follow the rules defined in `.editorconfig` files in your project, so that you can unify project preferences across multiple editors. See the [editorconfig homepage](http://editorconfig.org/) for more information.
 * [projectionist.vim](https://github.com/tpope/vim-projectionist) gives you the ability to jump between related files, such as between a code file and its spec.
-	* It also supports adding a `.projections.json` file to your project so you can teach Vim how to find the spec for the current source file. See the [README](https://github.com/tpope/vim-projectionist) for more details.
+  * It also supports adding a `.projections.json` file to your project so you can teach Vim how to find the spec for the current source file. See the [README](https://github.com/tpope/vim-projectionist) for more details.
+* [rainbow-parentheses](https://github.com/kien/rainbow_parentheses.vim) highlights nested parentheses, brackets, and curly braces with differing colors so you can match them up more easily.
+  * Use `,rp` to toggle rainbow parenthesis mode in the current file. By default it is off.
 
 ## Window Management
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.
