@@ -142,6 +142,7 @@ Plugin 'tpope/vim-dispatch'
 Plugin 'carlobaldassi/ConqueTerm'
 Plugin 'sjl/vitality.vim'
 Plugin 'brysgo/test_server'
+Plugin 'mdelillo/vim-simple-bdd'
 
 call vundle#end()
 filetype plugin indent on

@@ -188,3 +188,7 @@ map <D-F> :Ag<Space>
 nmap <leader>ld <Plug>LocalMakelet
 
 nmap <leader>rp :RainbowParenthesesToggle<CR>
+
+" Convert simple_bdd steps into methods
+nnoremap <leader>bdd :SimpleBDD<CR>
+vnoremap <leader>bdd :SimpleBDD<CR>
