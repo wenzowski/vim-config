@@ -127,6 +127,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)
 * [vim-haml](https://github.com/tpope/vim-haml)
 * [vim-cucumber](https://github.com/tpope/vim-cucumber)
+* [vim-cucumber-align-pipes](https://github.com/quentindecock/vim-cucumber-align-pipes)
 * [mustache.vim](https://github.com/juvenn/mustache.vim)
 * [vim-gocode](https://github.com/Blackrush/vim-gocode)
 * [scala-vim-support](https://github.com/rosstimson/scala-vim-support)
