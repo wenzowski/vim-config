@@ -9,13 +9,6 @@ Fetch the latest version of vim-config and install all the new bundles by runnin
 
     ~/.vim/bin/update
 
-# Upgrading from an old vim-config
-
-If you're upgrading from a previous version that uses Pathogen instead of
-Vundle, you may need to do some one-time cleanup:
-
-    ~/.vim/bin/upgrade
-
 # Functionality
 
 Plugins and configuration provide most of the functionality of the pivotal vim
