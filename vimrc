@@ -59,7 +59,6 @@ Plugin 'tpope/vim-rake'
 " Node.js
 "
 Plugin 'moll/vim-node'
-Plugin 'elzr/vim-json'
 Plugin 'wavded/vim-stylus'
 
 "
