@@ -164,6 +164,3 @@ if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
 
-au BufRead,BufNewFile *.hamlc set ft=haml
-au BufRead,BufNewFile *.es6 set ft=javascript
-
