@@ -26,7 +26,7 @@ if empty(system("grep lazy_load ~/.vim/bundle/vundle/autoload/vundle.vim"))
     silent !git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
     let need_to_install_plugins=1
 endif
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
