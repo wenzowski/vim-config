@@ -41,7 +41,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'wgibbs/vim-irblack'
 Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'candycode.vim'
-Plugin 'Color-Sampler-Pack'
+Plugin 'Colour-Sampler-Pack'
 Plugin 'flazz/vim-colorschemes'
 
 "
