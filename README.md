@@ -1,7 +1,7 @@
 # To Install
 (Re)move ~/.vim and ~/.vimrc if you have them already, and run:
 
-    git clone https://github.com/pivotalcommon/vim-config.git ~/.vim
+    git clone https://github.com/pivotal/vim-config.git ~/.vim
     ~/.vim/bin/install
 
 # Updating
@@ -37,7 +37,7 @@ mind that this config has comma mapped as the leader key:
 * [gundo](http://sjl.bitbucket.org/gundo.vim/) lets you navigate your vim undo history as a tree.  Ever do that thing where you undo a few times, make a change, and want to undo your initial undo?  Type `:GundoToggle` and use the arrow keys to find the version you want.
 * [tabular](https://github.com/godlygeek/tabular) makes it easy to make pretty ASCII tables and align equal signs of successive variable definitions.
 * [syntastic](https://github.com/scrooloose/syntastic) runs your compiler or interpreter and displays syntax errors in vim.  A `>>` in the gutter means there is an error on that line, you can mouse over it for more details.
-* [vim-airline](https://github.com/bling/vim-airline) sets the status bar and makes it more configurable and useful by showing things like the current Git branch, etc.
+* [vim-airline](https://github.com/vim-airline/vim-airline) sets the status bar and makes it more configurable and useful by showing things like the current Git branch, etc.
 * [supertab](https://github.com/ervandew/supertab) lets you press Tab after Ctrl-P or Ctrl-N to cycle through completion options.
 * [j-split](https://github.com/mgamba/j-split/blob/master/plugin/j-split.vim) converts spaces in the current line to new lines by pressing `,j` (kind of like a simple use of `xargs`).
 * [diffthese](https://github.com/matt-royal/diffthese) lets you use vimdiff on open windows.  You can use `:DiffLeft`, `:DiffRight`, etc.  `:DiffThese` lets you specify window numbers with number 1 in the top left, increasing clockwise.
@@ -117,6 +117,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * Color-Sampler-Pack
 * [colorschemes](https://github.com/flazz/vim-colorschemes)
 * [base16](https://github.com/chriskempson/base16-vim)
+* [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 
 ## Languages
 * [vim-ruby](https://github.com/vim-ruby/vim-ruby)
@@ -129,7 +130,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [vim-cucumber](https://github.com/tpope/vim-cucumber)
 * [vim-cucumber-align-pipes](https://github.com/quentindecock/vim-cucumber-align-pipes)
 * [mustache.vim](https://github.com/juvenn/mustache.vim)
-* [vim-gocode](https://github.com/Blackrush/vim-gocode)
+* [vim-go](https://github.com/fatih/vim-go)
 * [scala-vim-support](https://github.com/rosstimson/scala-vim-support)
 * [vim-clojure-static](https://github.com/guns/vim-clojure-static)
 * [csv.vim](https://github.com/chrisbra/csv.vim)
@@ -137,6 +138,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [vim-jst](https://github.com/briancollins/vim-jst)
 * [vim-jade](https://github.com/digitaltoad/vim-jade)
 * [vim-jsx](https://github.com/mxw/vim-jsx)
+* [elm.vim](https://github.com/lambdatoast/elm.vim)
 
 # Advanced
 

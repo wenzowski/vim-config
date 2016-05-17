@@ -18,18 +18,18 @@ filetype off                   " required!
 
 " Based on http://erikzaadi.com/2012/03/19/auto-installing-vundle-from-your-vimrc/
 let need_to_install_plugins=0
-if empty(system("grep lazy_load ~/.vim/bundle/vundle/autoload/vundle.vim"))
+if empty(system("grep lazy_load ~/.vim/bundle/Vundle.vim/autoload/vundle.vim"))
     echo "Installing Vundle..."
     echo ""
     silent !mkdir -p ~/.vim/bundle
-    silent !rm -rf ~/.vim/bundle/vundle
-    silent !git clone https://github.com/gmarik/vundle ~/.vim/bundle/vundle
+    silent !rm -rf ~/.vim/bundle/Vundle.vim
+    silent !git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     let need_to_install_plugins=1
 endif
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 "
 " Colorschemes
@@ -41,7 +41,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'wgibbs/vim-irblack'
 Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'candycode.vim'
-Plugin 'Color-Sampler-Pack'
+Plugin 'Colour-Sampler-Pack'
 Plugin 'flazz/vim-colorschemes'
 
 "
@@ -75,7 +75,8 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'sjl/gundo.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'scrooloose/syntastic'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ervandew/supertab'
 Plugin 'mgamba/j-split'
 Plugin 'matt-royal/diffthese'
@@ -130,7 +131,7 @@ Plugin 'tpope/vim-haml'
 Plugin 'tpope/vim-cucumber'
 Plugin 'quentindecock/vim-cucumber-align-pipes'
 Plugin 'juvenn/mustache.vim'
-Plugin 'Blackrush/vim-gocode'
+Plugin 'fatih/vim-go'
 Plugin 'rosstimson/scala-vim-support'
 Plugin 'guns/vim-clojure-static'
 Plugin 'chrisbra/csv.vim'
@@ -138,6 +139,7 @@ Plugin 'elzr/vim-json'
 Plugin 'briancollins/vim-jst'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'mxw/vim-jsx'
+Plugin 'lambdatoast/elm.vim'
 
 "
 " Development Tool Integration
@@ -169,6 +171,4 @@ runtime! init/**.vim
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
-
-au BufRead,BufNewFile *.hamlc set ft=haml
 
