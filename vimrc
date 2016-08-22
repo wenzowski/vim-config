@@ -129,6 +129,7 @@ else
   Plugin 'digitaltoad/vim-jade'
   Plugin 'mxw/vim-jsx'
   Plugin 'lambdatoast/elm.vim'
+  Plugin 'leafgarland/typescript-vim'
 
   "
   " Development Tool Integration
