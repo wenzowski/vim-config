@@ -130,6 +130,7 @@ else
   Plugin 'mxw/vim-jsx'
   Plugin 'lambdatoast/elm.vim'
   Plugin 'leafgarland/typescript-vim'
+  Plugin 'digitaltoad/vim-pug'
 
   "
   " Development Tool Integration
