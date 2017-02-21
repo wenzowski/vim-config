@@ -131,6 +131,7 @@ else
   Plugin 'lambdatoast/elm.vim'
   Plugin 'leafgarland/typescript-vim'
   Plugin 'digitaltoad/vim-pug'
+  Plugin 'elixir-lang/vim-elixir'
 
   "
   " Development Tool Integration
