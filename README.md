@@ -141,6 +141,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [vim-pug](https://github.com/digitaltoad/vim-pug)
 * [vim-jsx](https://github.com/mxw/vim-jsx)
 * [elm.vim](https://github.com/lambdatoast/elm.vim)
+* [vim-concourse](https://github.com/luan/vim-concourse)
 
 # Advanced
 
