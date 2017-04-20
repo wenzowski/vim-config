@@ -132,6 +132,7 @@ else
   Plugin 'leafgarland/typescript-vim'
   Plugin 'digitaltoad/vim-pug'
   Plugin 'elixir-lang/vim-elixir'
+  Plugin 'luan/vim-concourse'
 
   "
   " Development Tool Integration
