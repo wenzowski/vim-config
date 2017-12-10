@@ -100,7 +100,7 @@ else
   Plugin 'epmatsw/ag.vim'
   Plugin 'tpope/vim-abolish'
   Plugin 'henrik/vim-qargs'
-  Plugin 'kien/ctrlp.vim'
+  Plugin 'ctrlpvim/ctrlp.vim'
 
   "
   " Navigation
