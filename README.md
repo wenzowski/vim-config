@@ -13,8 +13,8 @@ Fetch the latest version of vim-config and install all the new bundles by runnin
 
 Plugins and configuration provide most of the functionality of the pivotal vim
 config.  Below is a broad overview of the included plugins and what they do.
-Each plugin is linked to its documentation page, when readng the docs keep in
-mind that this config has comma mapped as the leader key:
+Each plugin is linked to its documentation page. When reading the docs, keep in
+mind that this config has comma mapped as the leader key.
 
 ## Ruby / Rails
 * [vim-rails](https://github.com/tpope/vim-rails) lets `gf` and `:Rextract` work on partials, highlights Rails functions.
