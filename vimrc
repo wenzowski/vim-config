@@ -156,8 +156,8 @@ Plugin 'mdelillo/vim-simple-bdd'
 "
 " Pairing Tools
 "
-Plugin 'Floobits/floobits-vim'
-Plugin 'floobits/floobits-neovim'
+" Plugin 'Floobits/floobits-vim'
+" Plugin 'floobits/floobits-neovim'
 
 call vundle#end()
 filetype plugin indent on
