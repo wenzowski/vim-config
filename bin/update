@@ -1,4 +1,4 @@
 #!/bin/bash
 cd ~/.vim
 git pull
-vim +PluginInstall! +qall
+vim -c VundleUpdate -c quitall

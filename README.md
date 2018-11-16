@@ -13,8 +13,8 @@ Fetch the latest version of vim-config and install all the new bundles by runnin
 
 Plugins and configuration provide most of the functionality of the pivotal vim
 config.  Below is a broad overview of the included plugins and what they do.
-Each plugin is linked to its documentation page, when readng the docs keep in
-mind that this config has comma mapped as the leader key:
+Each plugin is linked to its documentation page. When reading the docs, keep in
+mind that this config has comma mapped as the leader key.
 
 ## Ruby / Rails
 * [vim-rails](https://github.com/tpope/vim-rails) lets `gf` and `:Rextract` work on partials, highlights Rails functions.
@@ -76,6 +76,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
   * It also supports adding a `.projections.json` file to your project so you can teach Vim how to find the spec for the current source file. See the [README](https://github.com/tpope/vim-projectionist) for more details.
 * [rainbow-parentheses](https://github.com/kien/rainbow_parentheses.vim) highlights nested parentheses, brackets, and curly braces with differing colors so you can match them up more easily.
   * Use `,rp` to toggle rainbow parenthesis mode in the current file. By default it is off.
+* [neoformat](https://github.com/sbdchd/neoformat) lets you run the code formatter of your choice on your code, bound to `gg-G`.
 
 ## Window Management
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.
@@ -88,7 +89,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
     * It helps you replace things with capitalization differences.  If you had the line `foo = Foo.new`, you could run `:S/foo/bar/g` to get `bar = Bar.new` (note the capital 'S').  You can also use curly braces like you would on the command line, for instance `:%S/facilit{y,ies}/building{,s}/g`.
     * It converts between camelCase and snake_case.  Use `cr` followed 's' for snake_case, 'm' for MixedCase, 'c' for camelCase, or 'u' for UPPER_CASE (these work within the current word and don't take a motion).
 * [vim-qargs](https://github.com/nelstrom/vim-qargs) ([stack overflow](http://stackoverflow.com/questions/5686206/search-replace-using-quickfix-list-in-vim/5686810#5686810)) is kind of like Cdo.
-* [ctrlp](https://github.com/kien/ctrlp.vim) is a fuzzy file finder invoked by hitting Ctrl-P in normal mode and typing some part of the file name you'd like to open.  This config also has `,f` mapped to the same function.
+* [ctrlp](https://github.com/ctrlpvim/ctrlp.vim) is a fuzzy file finder invoked by hitting Ctrl-P in normal mode and typing some part of the file name you'd like to open.  This config also has `,f` mapped to the same function.
 
 ## Navigation
 * [nerdtree](https://github.com/scrooloose/nerdtree) puts a directory tree on the left side of the screen.  Press `\` to open it at your project root, or `Shift-\` to open it with the current file selected.  You can press `m` to move, delete, or create files.  Press `?` inside the tree to get more help.
@@ -134,11 +135,14 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [scala-vim-support](https://github.com/rosstimson/scala-vim-support)
 * [vim-clojure-static](https://github.com/guns/vim-clojure-static)
 * [csv.vim](https://github.com/chrisbra/csv.vim)
+* [vim-elixir](https://github.com/elixir-lang/vim-elixir)
 * [vim-json](https://github.com/elzr/vim-json)
 * [vim-jst](https://github.com/briancollins/vim-jst)
 * [vim-jade](https://github.com/digitaltoad/vim-jade)
+* [vim-pug](https://github.com/digitaltoad/vim-pug)
 * [vim-jsx](https://github.com/mxw/vim-jsx)
 * [elm.vim](https://github.com/lambdatoast/elm.vim)
+* [vim-concourse](https://github.com/luan/vim-concourse)
 
 # Advanced
 
